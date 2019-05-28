@@ -26,6 +26,7 @@
     "release": "VERSION=`printf 'v' && node -e 'console.log(require(\"./package.json\").version)'` && git tag $VERSION && git push && git push origin $VERSION && npm publish"
   },
   "devDependencies": {
+    "howler": "^2.1.2",
     "uglify-js": "2.x"
   },
   "main": "dist/howler.js",
